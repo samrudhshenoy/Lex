@@ -4,7 +4,7 @@ Lex Library Manager
 
 
 About
-————————
+
 Hello, my name is Samrudh Shenoy. Lex is a project I had been working on and finished in my freshman year, 
 and it serves as a library database manager. Lex is a locally run school library database manager, with 
 the basic functions of storing, adding, and editing members/teachers and books. In addition to basic tasks, 
@@ -20,12 +20,12 @@ white-blue theme, and a green-black theme, both of which are found in this linke
 The original product will be found in the folder LexLibraryManager, and the modified product (with the
 green-black theme) will be found in the LosAltosHacks folder (I had made CSS modifications to the project's
 theme during a hackathon).
-————————————————————————————————————————————————————————————
+
 
 
 
 Documentation
-————————
+
 
 Language: 	JavaFx 8, Java SE 8 1.8.0_152
 
@@ -40,7 +40,7 @@ Resources:
 			iconfinder.com — Icons
 		
 		> All icons and resources free for non-commercial use <
-————————————————————————————————————————————————————————————
+
 
 
 
@@ -53,10 +53,10 @@ limit, time limit, fine owed.
 The program is able to export reports as xml files, as well as print them.
 A master report can be created to track the issuance of books for all members, and provides all the information. 
 The report can be printed or exported as an excel .xls file to the desktop for convenience.
-————————————————————————————————————————————————————————————
+
 
 Help
-__
+
 Viewing a member: Press on the row of the member's name in the Column at the left of the Information page
 Adding a member: Press the "New" button at the bottom of the Information page and enter all fields 
 Editing a member: Press the "Edit" button at the bottom of the Information page and enter all fields
