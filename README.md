@@ -3,7 +3,7 @@ Lex Library Manager
 
 
 
-About
+About:
 
 Hello, my name is Samrudh Shenoy. Lex is a project I had been working on and finished in my freshman year, 
 and it serves as a library database manager. Lex is a locally run school library database manager, with 
@@ -24,7 +24,7 @@ theme during a hackathon).
 
 
 
-Documentation
+Documentation:
 
 
 Language: 	JavaFx 8, Java SE 8 1.8.0_152
@@ -44,8 +44,8 @@ Resources:
 
 
 
-Functionality
-————————
+Functionality:
+
 The program tracks library books and borrowers(students or teachers) that are in a school. Every member has
 their own information recorded for first name, last name, status(student or teacher), books checked out, book 
 limit, time limit, fine owed.
@@ -55,7 +55,7 @@ A master report can be created to track the issuance of books for all members, a
 The report can be printed or exported as an excel .xls file to the desktop for convenience.
 
 
-Help
+Help:
 
 Viewing a member: Press on the row of the member's name in the Column at the left of the Information page
 Adding a member: Press the "New" button at the bottom of the Information page and enter all fields 
