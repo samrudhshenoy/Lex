@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="178.0" prefWidth="600.0" styleClass="background" stylesheets="@Theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hhsfbla.library.view.MemberEditDialogController">
+   <children>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="250.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="memberLabel" layoutX="14.0" layoutY="14.0" styleClass="label-header" text="Edit Member" />
+            <ButtonBar layoutY="131.0" prefHeight="40.0" prefWidth="585.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="131.0">
+              <buttons>
+                  <Button defaultButton="true" mnemonicParsing="false" onAction="#handleOk" prefHeight="28.0" prefWidth="315.0" styleClass="accept" text="OK" />
+                  <Button mnemonicParsing="false" onAction="#handleCancel" prefHeight="29.0" prefWidth="131.0" styleClass="cancel" text="Cancel" />
+              </buttons>
+            </ButtonBar>
+            <Label layoutX="13.0" layoutY="55.0" text="First:" />
+            <Label layoutX="300.0" layoutY="55.0" text="Last:" />
+            <TextField fx:id="fNameField" layoutX="65.0" layoutY="50.0" prefHeight="27.0" prefWidth="153.0" AnchorPane.leftAnchor="65.0" AnchorPane.rightAnchor="355.0" />
+            <TextField fx:id="lNameField" layoutX="351.0" layoutY="50.0" prefHeight="27.0" prefWidth="234.0" AnchorPane.leftAnchor="351.0" AnchorPane.rightAnchor="29.0" />
+            <ChoiceBox fx:id="statusChoiceBox" layoutX="218.0" layoutY="89.0" prefWidth="150.0" />
+            <Label layoutX="145.0" layoutY="98.0" text="Type:" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

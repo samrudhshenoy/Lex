@@ -1,0 +1,52 @@
+Library Database Application 
+
+
+
+About
+————————
+Hello, our names are Samrudh Shenoy, Jadon Lam, and Kabir Batra. We are all freshman at Homestead High School, and this is our submission for the Los Altos Hacks Hackathon
+————————————————————————————————————————————————————————————
+
+
+
+Documentation
+————————
+
+Language: 	JavaFx 8, Java SE 8 1.8.0_152
+
+IDE:		Eclipse Oxygen
+
+Resources:	
+			stackoverflow.com
+			Official Java and JavaFx documentation
+		
+			fortawesome.com — Icons
+			iconarchive.com — Icons
+			iconfinder.com — Icons
+		
+		>All icons and resources free for non-commercial use<
+————————————————————————————————————————————————————————————
+
+
+
+Functionality
+————————
+The program tracks library books and borrowers(students or teachers) that are in a school. Every member has
+their own information recorded for first name, last name, status(student or teacher), books checked out, book 
+limit, time limit, fine owed.
+
+A master report can be created to track the issuance of books for all members, and provides all the information. 
+The report can be printed or exported as an excel .xls file to the desktop for convenience.
+————————————————————————————————————————————————————————————
+
+Help
+__
+Viewing a member: Press on the row of the member's name in the Column at the left of the Information page
+Adding a member: Press the "New" button at the bottom of the Information page and enter all fields 
+Editing a member: Press the "Edit" button at the bottom of the Information page and enter all fields
+Finding a member: Enter any portion of name into name filter above name table
+Viewing book limits, time limits, or fines: Press the "Limits" button at the top left of the Information Page
+Editing book limits, Click the "Member Limits and Fines" button in the top middle of the Information Page. Enter all desired limits into 6 fields at the bottom of the Limits Page
+Viewing Master Books Report: Click the "Master Book Report" button at the top left of the Information Page
+Viewing Weekly Books and Fines Report: Click the "Weekly Books and Fines Report" at the top right at the information page
+
